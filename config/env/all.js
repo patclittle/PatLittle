@@ -18,7 +18,7 @@ module.exports = {
     }
   },
   hostname: process.env.HOST || process.env.HOSTNAME,
-  db: process.env.MONGOHQ_URL,
+  db: "mongodb://PatLittle:svrvst321@ds045882.mongolab.com:45882/patlittle",
   templateEngine: 'swig',
 
   // The secret should be set to a non-guessable string that
